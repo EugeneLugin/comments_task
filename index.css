@@ -1,0 +1,74 @@
+.list {
+	height: 250px;
+	width: 90%;
+	overflow: scroll;
+	overflow-x: auto;
+	border: 1px solid #eee;
+}
+
+ul {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-padding-start: 0;
+}
+
+.row {
+	padding: 10px;
+	background: #fafafa;
+	border-bottom: 2px solid white;
+}
+
+.row > li {
+	display: inline-block;
+}
+
+.comment.author {
+	width: 25%;
+	padding-right: 10px;
+	border-right: 1px solid #ccc;
+}
+
+.comment.author .fio {
+	font-weight: bold;
+}
+
+.comment.text {
+	width: 70%;
+	padding-left: 10px;
+	vertical-align: top;
+}
+
+.comment.button {
+	padding: 10px;
+	width: 100px;
+}
+
+.comment.button  input {
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#new_comment {
+	width: 90%;
+}
+
+#new_comment input[type=text] {
+	width: 90%;
+}
+
+#new_comment textarea {
+	width: 95%;
+	height: 57px;
+}
+
+.error {
+	font-weight: normal;
+	color: red;
+	font-size: small;
+}
+
+.succeed {
+	font-weight: normal;
+	color: green;
+	font-size: small;
+}
